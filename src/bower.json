@@ -1,0 +1,21 @@
+{
+  "name": "gitcheese.landing-page",
+  "version": "0.9.0",
+  "dependencies": {
+    "animate.css": "^3.4.0",
+    "bootstrap": "^3.3.5",
+    "fontawesome": "4.4.0",
+    "wow": "wow.js#~1.1.2",
+    "respond": "1.4.2",
+    "jquery": "2.2.1",
+    "html5shiv": "3.7.3",
+    "jQuery-One-Page-Nav": "3.0.0"
+  },
+  "devDependencies": {
+    "livereload-js": "~2.2.1"
+  },
+  "appPath": "app",
+  "resolutions": {
+    "jquery": "2.2.1"
+  }
+}
