@@ -35,7 +35,8 @@ module.exports = function(grunt) {
           ]
         }]
       },
-      dev: '.tmp'
+      dev: '.tmp',
+      deploy:'.grunt/ftpush'
     },
     autoprefixer: {
       options: {
@@ -333,11 +334,12 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('deploy', [
+    'clean:deploy',
     'ftpush'
   ]);
 
   grunt.registerTask('build-and-deploy', [
     'build',
-    'ftpush'
+    'deploy'
   ]);
 };
