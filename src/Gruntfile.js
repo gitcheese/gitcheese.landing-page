@@ -333,13 +333,17 @@ module.exports = function(grunt) {
     'htmlmin'
   ]);
 
-  grunt.registerTask('deploy', [
+  grunt.registerTask('clean-deploy', [
     'clean:deploy',
+    'ftpush'
+  ]);
+
+  grunt.registerTask('deploy', [
     'ftpush'
   ]);
 
   grunt.registerTask('build-and-deploy', [
     'build',
-    'deploy'
+    'clean-deploy'
   ]);
 };
