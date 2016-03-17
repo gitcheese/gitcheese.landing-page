@@ -1,7 +1,7 @@
-<a href="https://www.gitcheese.com/app/#/projects/DFD01396-5152-45AD-B683-4007345FACFF/pledges/create" target="_blank"> <img src="https://api.gitcheese.com/v1/projects/DFD01396-5152-45AD-B683-4007345FACFF/badges" width="200px" /></a>
-#   gitcheese.landing-page
+# [![gitcheese.com](https://api.gitcheese.com/v1/projects/DFD01396-5152-45AD-B683-4007345FACFF/badges)](https://www.gitcheese.com/app/#/projects/DFD01396-5152-45AD-B683-4007345FACFF/pledges/create) gitcheese.landing-page
 
-### Requirments ###
+Requirments
+====
 
 * git
 * nodejs
@@ -9,7 +9,8 @@
 * grunt (npm install grunt -g)
 * grunt-cli (npm install grunt-cli -g)
 
-### How do I get set up? ###
+How do I get set up?
+====
 
 * npm install
 * bower install
@@ -17,7 +18,10 @@
 
 App should be accessible on http://localhost:9001
 
-### Other options ###
-
+Other options
+====
 * grunt build - to build release version
 * grunt serve:dist - to build and run release version.
+
+====
+[![gitcheese.com](https://api.gitcheese.com/v1/projects/DFD01396-5152-45AD-B683-4007345FACFF/badges)](https://www.gitcheese.com/app/#/projects/DFD01396-5152-45AD-B683-4007345FACFF/pledges/create)
